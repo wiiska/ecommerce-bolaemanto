@@ -1,12 +1,15 @@
 /* Reset CSS baseado no Andy Bell
    Fonte: https://piccalil.li/blog/a-modern-css-reset/ */
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
 html {
-    line-height: 1.15; /* 1 */
+    line-height: 1.15;
+    /* 1 */
     -webkit-text-size-adjust: 100%;
 }
 
@@ -14,11 +17,21 @@ body {
     margin: 0;
 }
 
-body, h1, h2, h3, h4, p, figure, blockquote, dl, dd {
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
     margin: 0;
 }
 
-ul[role='list'], ol[role='list'] {
+ul[role='list'],
+ol[role='list'] {
     list-style: none;
 }
 
@@ -36,12 +49,25 @@ a:not([class]) {
     text-decoration-skip-ink: auto;
 }
 
-img, picture {
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img,
+picture {
     max-width: 100%;
     display: block;
 }
 
-input, button, textarea, select {
+input,
+button,
+textarea,
+select {
     font: inherit;
 }
 
@@ -50,7 +76,9 @@ input, button, textarea, select {
         scroll-behavior: auto;
     }
 
-    *, *::before, *::after {
+    *,
+    *::before,
+    *::after {
         animation-duration: 0.01ms !important;
         animation-iteration-count: 1 !important;
         transition-duration: 0.01ms !important;

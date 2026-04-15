@@ -1,0 +1,19 @@
+<svg width="150" height="48" viewBox="0 0 150 48" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo opcional (remova se quiser transparente) -->
+  <rect width="150" height="48" fill="none"></rect>
+
+  <!-- Ícone de bola -->
+  <circle cx="24" cy="24" r="16" fill="#0f172a"></circle>
+  <polygon points="24,14 20,20 28,20" fill="#ffffff"></polygon>
+  <polygon points="24,34 20,28 28,28" fill="#ffffff"></polygon>
+  <polygon points="14,24 20,20 20,28" fill="#ffffff"></polygon>
+  <polygon points="34,24 28,20 28,28" fill="#ffffff"></polygon>
+
+  <!-- Texto -->
+  <text x="50" y="22" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#0f172a" font-weight="bold">
+    Bola
+  </text>
+  <text x="50" y="38" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#22c55e" font-weight="bold">
+    e Manto
+  </text>
+</svg>
