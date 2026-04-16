@@ -1,5 +1,5 @@
 .hero{
-    background: url(../../images/banners/banner.png) no-repeat center;
+    background: url(../../images/banners/banner.jpg) no-repeat center;
     background-size: cover;
     height: 500px;
     position: relative;
@@ -11,7 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding: 0 4rem;
+    padding: 0 6rem;
 }
 
 .hero-content {
@@ -23,7 +23,9 @@
 .hero-buttons{
     display: flex;
     gap: 16px;
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .hero-content .hero-title{
@@ -31,6 +33,7 @@
     margin-bottom: 40px;
     font-weight: 400;
     line-height: 36px;
+    letter-spacing: 3px;
 }
 
 .hero-content .hero-subtitle{
@@ -38,31 +41,3 @@
     font-weight: 400;
 }
 
-.btn{
-    font-size: 1.25rem;
-    width: 161px;
-    height: 48px;
-    border-radius: 25px;
-    color: #ffffff;
-    font-weight: 400;
-    padding: 10px 20px;
-    transition: background-color 0.3s, border 0.3s;
-}
-
-.btn-outline{
-    display: flex;
-    align-items: center;
-    border: 2px solid #ffffff;
-    background: transparent;
-}
-
-.btn-filled{
-    background: #ffffff;
-    color: #6329A2;
-}
-
-.btn:hover{
-    background-color: #6329A2;
-    color: #ffffff;
-    border-color: #6329A2;
-}
